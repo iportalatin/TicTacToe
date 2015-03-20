@@ -1,0 +1,116 @@
+div {
+	width:  320px;
+	background-color: #B7C6E1;
+	padding: 0px 20px 0px 20px;
+	position: relative;
+	clear: both;
+	float: left;
+	}
+	
+#label1 {
+	text-align: center;
+	display:inline-block;
+	color:red;
+	position:relative;
+	padding: 0px 20px 0px 0px;
+	font-family:cursive;
+	float: left;
+}
+
+#label2 {
+	text-align: center;
+	display:inline-block;
+	color:green;
+	position:relative;
+	padding: 0px 20px 0px 0px;
+	font-family:cursive;
+	float: left;
+}
+
+#avatar {
+	display: inline-block;
+	width: 70px;
+	length: 70px;
+	}
+
+#grid11 {
+	width: 50px;
+	padding: 50px 0px 50px 70px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+    	z-index: 1;
+    	display: block;
+}
+
+#grid12 {
+	width: 50px;
+	padding: 50px 0px 50px 70px;
+	position: absolute;
+	left: 75px;
+	top: 00px;
+    	z-index: 1;
+}
+
+#grid13 {
+	width: 50px;
+	padding: 50px 0px 50px 70px;
+	position: absolute;
+	left: 150px;
+	top: 00px;
+    	z-index: 1;
+}
+
+#grid21 {
+	width: 50px;
+	padding: 50px 0px 50px 70px;
+	position: absolute;
+	left: 0px;
+	top: 75px;
+    	z-index: 1;
+}
+
+#grid22 {
+	width: 50px;
+	padding: 50px 0px 50px 70px;
+	position: absolute;
+	left: 75px;
+	top: 75px;
+    	z-index: 1;
+}
+
+#grid23 {
+	width: 50px;
+	padding: 50px 0px 50px 70px;
+	position: absolute;
+	left: 150px;
+	top: 75px;
+    	z-index: 1;
+}
+
+#grid31 {
+	width: 50px;
+	padding: 50px 0px 50px 70px;
+	position: absolute;
+	left: 0px;
+	top: 150px;
+    	z-index: 1;
+}
+
+#grid32 {
+	width: 50px;
+	padding: 50px 0px 50px 70px;
+	position: absolute;
+	left: 75px;
+	top: 150px;
+    	z-index: 1;
+}
+
+#grid33 {
+	width: 50px;
+	padding: 50px 0px 50px 70px;
+	position: absolute;
+	left: 150px;
+	top: 150px;
+    	z-index: 1;
+}

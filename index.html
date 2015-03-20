@@ -1,24 +1,50 @@
 <!DOCTYPE html><html>
 <head>
+	<link type="text/cc" rel="stylesheet" href="stylesheet.css" />
 	<title>Tic Tac Toe</title>
-	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/tictactoe.js"></script>
+
 </head>
 <body>
-	<header><h1><center>
+	<div><header><h1><center>
 		Tic Tac Toe
-	</center></h1></header>
-	<nav>
-		<h2>Controls</h2>
-		<ul>
-	 	 <li>New Game</li>
-	 	 <li>Scoreboard</li>
-		</ul>
+	</center></h1></header></div>
+	<div>
+			<h2>Controls</h2>
+			<ul>
+		 	 <li>New Game</li>
+		 	 <li>Scoreboard</li>
+	</div>
+	<div>
 		<h2>Players</h2>
-		<ul>
-	 	 <li>Player: X</li>
-	 	 <li>Player: O</li>
-		</ul>
-	</nav>
+		<div id=label1>
+		 Player: X
+		 <img id=avatar src="images/icon.png" onclick="onChangePhoto('player 1')" />
+		</div>
+		<div id=label2>
+		 Player: O
+		 <img id=avatar src="images/icon.png" onclick="onChangePhoto('player 1')" />
+		</div>
+	</div>
+	<div>
 	<img src="images/board.png" alt="Board" />
+	<img id="grid11" src="images/x.png" alt="Blank Upper Left" onclick="gridClick(this)" />
+	<img id=grid12 src="images/x.png" alt="Blank Upper Left" />
+	<img id=grid13 src="images/x.png" alt="Blank Upper Left" />
+	<img id=grid21 src="images/x.png" alt="Blank Upper Left" />
+	<img id=grid22 src="images/x.png" alt="Blank Upper Left" />
+	<img id=grid23 src="images/x.png" alt="Blank Upper Left" />
+	<img id=grid31 src="images/x.png" alt="Blank Upper Left" />
+	<img id=grid32 src="images/x.png" alt="Blank Upper Left" />
+	<img id=grid33 src="images/x.png" alt="Blank Upper Left" />
+
+	<script>
+	function gridClick(element) {
+		console.log("Clicked grid");
+		element.src = "images/blank.png";
+	}
+	</script>
+	</div>
 </body>
 </html>
