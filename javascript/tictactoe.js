@@ -32,6 +32,7 @@ function onDeviceReady() {
 
 function onChangePhoto(player) {
 	console.log("Inside onChangePhoto");
+	alert("Opening camera");
 	// Take picture using device camera and retrieve image as base64-encoded string
       navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 50, destinationType: Camera.DestinationType.DATA_URL });
 }
